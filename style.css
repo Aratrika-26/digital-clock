@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.outer{
+    content: "";
+    margin-top: 10%;
+    height: 20rem;
+    width: 35rem;
+    background-color: rgb(8, 8, 42);
+    background-image: linear-gradient(rgb(8, 8, 42),rgb(97, 97, 117));
+    border-radius: 20px;
+    border: 20px solid rgb(65, 65, 89);
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 6rem;
+}
+#time-live{
+    padding-top: 15%;
+}
